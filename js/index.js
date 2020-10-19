@@ -16,7 +16,12 @@ let contacts = [
     [6, "nom6", "prenom6", "0487545764", true, [0, 1, 6]],
 ];
 
-function rajouterUnePersonne() {
+functfunction rajouterUnePersonne() {
+    let nom = prompt("veuillez introduire le nom du patient");
+    let prenom = prompt("veuillez introduire le prénom du patient");
+    let gsm = prompt("veuillez introduire le numéro de téléphone du patient");
+    let isPositif = confirm('Cette personne était-elle positive récemment ?');
+    let listGsm = [];ion rajouterUnePersonne() {
     let nom = prompt();
     let prenom = prompt();
     let gsm = prompt();
